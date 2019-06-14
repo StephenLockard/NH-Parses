@@ -10712,7 +10712,7 @@ a.text-dark:hover, a.text-dark:focus {
   a:not(.btn) {
     text-decoration: underline;
   }
-  abbr[title]::after {ry
+  abbr[title]::after {
     content: " (" attr(title) ")";
   }
   pre {
