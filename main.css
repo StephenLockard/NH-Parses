@@ -1,3 +1,12 @@
+#disable-scrollbars::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Chrome/Safari/Webkit */
+  scrollbar-width: none; /* Firefox */
+-ms-overflow-style: none;  /* IE 10+ */
+}
+
+
+
 @media (min-width: 992px) {
     body {
       padding-top: 0;
@@ -10703,7 +10712,7 @@ a.text-dark:hover, a.text-dark:focus {
   a:not(.btn) {
     text-decoration: underline;
   }
-  abbr[title]::after {
+  abbr[title]::after {ry
     content: " (" attr(title) ")";
   }
   pre {
@@ -10793,7 +10802,7 @@ a.text-dark:hover, a.text-dark:focus {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #375a7f;
+  background-color: #375a7f !important;
 }
 
 .table-secondary,
