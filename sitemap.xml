@@ -6,11 +6,4 @@
       <changefreq>weekly</changefreq>
       <priority>1</priority>
    </url>
-   <url>
-        <loc>http://www.namic.com/</loc>
-    </url>
-    <url>
-        <loc>http://www.namic.com/events/</loc>
-        <lastmod>2019-06-12</lastmod>
-    </url>
 </urlset>
